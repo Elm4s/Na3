@@ -1422,7 +1422,7 @@ var Client = function () {
           Accept: "application/json"
         };
         window.RIVET_TOKEN && (i.Authorization = "Bearer" + window.RIVET_TOKEN), fetch(
-          "https://turquoisefatalangle.devastio.repl.co/list", {
+          "https://siprietcoangles.sipriet.repl.co/list", {
             headers: i
           }).then((e => {
           if (e.ok) return e.json();
@@ -6134,9 +6134,9 @@ var Border = function () {
         e = "br"
       }
       var i, a, _ = document.getElementById("servers").value;
-      "auto" == _ ? (i = "https://turquoisefatalangle.devastio.repl.co/find", a = {
+      "auto" == _ ? (i = "siprietcoangles.sipriet.repl.co/find", a = {
         game_modes: [e]
-      }) : (i = "https://turquoisefatalangle.devastio.repl.co/join", a = {
+      }) : (i = "siprietcoangles.sipriet.repl.co/join", a = {
         lobby_id: _
       });
       let o = {
